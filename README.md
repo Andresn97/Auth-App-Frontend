@@ -1,27 +1,25 @@
-# 10AuthApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
+# AUTH APP
 
-## Development server
+This app is the frontend of the project Auth App, as part of practice Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This App is developing in Angular
 
-## Code scaffolding
+To run this app, follow the next steps:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone this project
+2. Enter to the folder and run 
+  ```
+  npm install
+  ```
+3. Create a folder inside src/ called **environments**.
+4. Inside this folder create a file called **environment.ts** and insert the following information:
+```
+export const environment = {
+  baseUrl: 'BACKEND_BASE_URL'
+}
+```
+5. Run this project with:
+```
+  ng serve -o
+  ```
